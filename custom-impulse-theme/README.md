@@ -7,7 +7,7 @@ custom-impulse-theme/
 ├── assets/      # CSS, JS and media files
 ├── blocks/      # Reusable content blocks
 ├── config/      # Theme and settings schemas
-├── layout/      # Base layout files
+├── layout/      # Base layout files (e.g., theme.liquid)
 ├── locales/     # Translation files
 ├── sections/    # Liquid sections
 ├── snippets/    # Small Liquid snippets
