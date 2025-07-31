@@ -18,6 +18,7 @@
     "group": "Group",
     "header": "Header",
     "layout": "Layout",
+    "preferences": "Preferences",
     "main": "Main",
     "page": "Page",
     "password": "Password",
@@ -45,6 +46,7 @@
     "padding": "Padding",
     "page_margin": "Page margin",
     "page_width": "Page width",
+    "enable_dark_mode": "Enable dark mode",
     "show_payment_icons": "Show payment icons",
     "text_style": "Text style",
     "text": "Text"

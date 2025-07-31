@@ -2,10 +2,10 @@
   <br>
     <img src="./assets/shoppy-x-ray.svg" alt="logo" width="200">
   <br>
-  Shopify Skeleton Theme
+Shopify Skeleton Theme
 </h1>
 
-A minimal, carefully structured Shopify theme designed to help you quickly get started. Designed with modularity, maintainability, and Shopify's best practices in mind.
+A premium, modular Shopify theme inspired by Impulse. Built for modern stores with extensive customization options and clean, scalable code.
 
 <p align="center">
   <a href="./LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
@@ -46,15 +46,20 @@ shopify theme dev
 
 ```bash
 .
-├── assets          # Stores static assets (CSS, JS, images, fonts, etc.)
-├── blocks          # Reusable, nestable, customizable UI components
-├── config          # Global theme settings and customization options
-├── layout          # Top-level wrappers for pages (layout templates)
-├── locales         # Translation files for theme internationalization
-├── sections        # Modular full-width page components
-├── snippets        # Reusable Liquid code or HTML fragments
-└── templates       # Templates combining sections to define page structures
+├── assets
+│   ├── scripts      # On-page JavaScript modules
+│   ├── styles       # Global and component CSS files
+│   └── media        # Images and fonts
+├── blocks          # Reusable, nestable UI components
+├── config          # Theme settings and customization options
+├── layout          # Top-level page wrappers
+├── locales         # Translation files
+├── sections        # Modular page sections
+├── snippets        # Small Liquid fragments
+└── templates       # JSON templates combining sections
 ```
+
+The `hero-banner` section demonstrates this structure with a flexible hero layout supporting images, video and animated slides.
 
 To learn more, refer to the [theme architecture documentation](https://shopify.dev/docs/storefronts/themes/architecture).
 
