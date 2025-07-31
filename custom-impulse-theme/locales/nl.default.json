@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "hero": {
+      "name": "Hero sectie",
+      "settings": {
+        "full_height": "Volledige hoogte",
+        "autoplay": "Automatisch afspelen",
+        "autoplay_speed": "Snelheid automatisch afspelen",
+        "overlay_color": "Overlay kleur",
+        "overlay_opacity": "Overlay dekking",
+        "lazy_load": "Afbeeldingen lazy load"
+      },
+      "blocks": {
+        "slide": {
+          "name": "Slide",
+          "settings": {
+            "image": "Afbeelding",
+            "video": "Video URL",
+            "heading": "Kop",
+            "subheading": "Subkop",
+            "button_label": "Knop label",
+            "button_link": "Knop link",
+            "text_align": "Tekst uitlijning",
+            "text_color": "Tekstkleur",
+            "animation_style": "Animatiestijl"
+          }
+        }
+      }
+    }
+  },
+  "labels": {
+    "background": "Achtergrondkleur",
+    "foreground": "Voorgrondkleur",
+    "dark_mode": "Dark mode inschakelen"
+  },
+  "options": {
+    "left": "Links",
+    "center": "Midden",
+    "right": "Rechts"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "hero": {
+      "name": "Hero section",
+      "settings": {
+        "full_height": "Full height",
+        "autoplay": "Autoplay",
+        "autoplay_speed": "Autoplay speed",
+        "overlay_color": "Overlay color",
+        "overlay_opacity": "Overlay opacity",
+        "lazy_load": "Lazy load images"
+      },
+      "blocks": {
+        "slide": {
+          "name": "Slide",
+          "settings": {
+            "image": "Image",
+            "video": "Video URL",
+            "heading": "Heading",
+            "subheading": "Subheading",
+            "button_label": "Button label",
+            "button_link": "Button link",
+            "text_align": "Text align",
+            "text_color": "Text color",
+            "animation_style": "Animation style"
+          }
+        }
+      }
+    }
+  },
+  "labels": {
+    "background": "Background color",
+    "foreground": "Foreground color",
+    "dark_mode": "Enable dark mode"
+  },
+  "options": {
+    "left": "Left",
+    "center": "Center",
+    "right": "Right"
+  }
+}
