@@ -1,0 +1,33 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Custom Impulse",
+    "theme_version": "1.0.0",
+    "theme_author": "Codex",
+    "theme_documentation_url": "https://example.com/docs",
+    "theme_support_url": "https://example.com/support"
+  },
+  {
+    "name": "t:general.colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background",
+        "label": "t:labels.background",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "color",
+        "id": "foreground",
+        "label": "t:labels.foreground",
+        "default": "#000000"
+      },
+      {
+        "type": "checkbox",
+        "id": "dark_mode",
+        "label": "t:labels.dark_mode",
+        "default": false
+      }
+    ]
+  }
+]
