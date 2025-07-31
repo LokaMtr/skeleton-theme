@@ -13,7 +13,7 @@
     {{ content_for_header }}
   </head>
 
-  <body>
+  <body class="{% if settings.enable_dark_mode %}dark-mode{% endif %}">
     {% sections 'header-group' %}
 
     {{ content_for_layout }}
