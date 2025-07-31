@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ page_title }}{% unless page_title contains shop.name %} - {{ shop.name }}{% endunless %}</title>
+    {{ content_for_header }}
+    <style>
+      :root {
+        --color-background: {{ settings.background }};
+        --color-foreground: {{ settings.foreground }};
+      }
+      body {
+        margin: 0;
+        background: var(--color-background);
+        color: var(--color-foreground);
+        font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      }
+      body.dark-mode {
+        --color-background: #111;
+        --color-foreground: #fff;
+      }
+    </style>
+  </head>
+  <body class="{% if settings.dark_mode %}dark-mode{% endif %}">
+    {{ content_for_layout }}
+  </body>
+</html>
